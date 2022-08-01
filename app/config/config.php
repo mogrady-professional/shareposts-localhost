@@ -15,7 +15,7 @@ define('DB_NAME', 'shareposts');
 //echo dirname(dirname(__FILE__)); // MIMVC\app
 define('APPROOT', dirname(dirname(__FILE__))); // Access App Root from any file
 // URL Root
-define('URLROOT', 'http://localhost/shareposts_localhost'); // Access URL Root from any file
+define('URLROOT', 'http://localhost/shareposts-localhost'); // Access URL Root from any file
 // Site Name
 define('SITENAME', 'SharePosts'); // Access Site Name from any file
 // App Version
