@@ -15,6 +15,7 @@
 - [Instructions for running locally](#instructions-for-running-locally)
   - [MySQL Database Setup](#mysql-database-setup)
 - [Application Images](#application-images)
+- [Hosting on a Web Server](#hosting-on-a-web-server)
 
 # Introduction
 
@@ -40,7 +41,7 @@ Server Configuration files (`.htaccess`) are included to enable hosting on a web
 # Project Structure
 
 ```php
-MIMVC
+shareposts-localhost
 ├── app                         # Application, MVC Structure, Libries, Config file
 |   ├── config                  # Database Parameters
 |   |   └── config.php
@@ -78,7 +79,7 @@ MIMVC
 # Instructions for running locally
 
 - In `C:\xampp\htdocs\` clone this repo
-- Open `http://localhost/shareposts_localhost/` in your browser.
+- Open `http://localhost/shareposts-localhost/` in your browser.
   - This is the location configured to serve the application (your local server) in `URLROOT` within `app/config/config.php` and the `.htaccess` file within the `public` directory.
 
 ## MySQL Database Setup
@@ -102,3 +103,11 @@ MIMVC
 <img src="images/posts.png"  height="auto" width="100%"> 
 <img src="images/register.png"  height="auto" width="100%"> 
 </h1>
+
+# Hosting on a Web Server
+
+> Useful Links to assist you
+
+- [What is the .htaccess File?](https://ithemes.com/blog/what-is-the-htaccess-file/#:~:text=htaccess%20file%20is%20a%20powerful,to%20edit%20server%20configuration%20files.)
+- [Heroku ](https://devcenter.heroku.com/articles/custom-php-settings)
+- [Apache HTTP Server Tutorial: .htaccess files](https://httpd.apache.org/docs/2.4/howto/htaccess.html)
